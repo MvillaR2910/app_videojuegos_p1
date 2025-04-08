@@ -113,7 +113,7 @@ class HomeScreenState extends State<HomeScreen> {
       body:
           _selectedIndex == 0
               ? _buildGameList()
-              : const CategoryScreen(), // 👈 Aquí se muestra tu pantalla de categorías
+              : const CategoryScreen(), // Se muestra la pantalla de categorías
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: const Color(0xFF0A0A0A),
         currentIndex: _selectedIndex,
